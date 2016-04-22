@@ -33,6 +33,11 @@
 		bottom: 0;
 		left: 0;
 	}
+	#apple{
+		position: fixed;
+		bottom: 0;
+		right: 0;
+	}
 	</style>
 </head>
 <body>
@@ -40,11 +45,8 @@
 	<div class="photo summer" data-stellar-background-ratio="0.5">summer</div>
 	<div class="photo autumn" data-stellar-background-ratio="0.5">autumn</div>
 	<div class="photo winter" data-stellar-background-ratio="0.5">winter</div>
-	<div class="photo spring" data-stellar-background-ratio="0.5">spring</div>
-	<div class="photo summer" data-stellar-background-ratio="0.5">summer</div>
-	<div class="photo autumn" data-stellar-background-ratio="0.5">autumn</div>
-	<div class="photo winter" data-stellar-background-ratio="0.5">winter</div>
 	<img id="rocket" src ="images/rocket.png" data-stellar-ratio="0.3">
+	<img id="apple"src="images/apple.jpg" data-stellar-ratio=0.3 height="100px;" width="100px;">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<script src="js/jquery.stellar.min.js"></script>
 	<script>
@@ -52,6 +54,7 @@
 		$.stellar();
 		});
 	</script>
+
 	
 </body>
 </html>
